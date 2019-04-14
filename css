@@ -1,0 +1,49 @@
+body {
+   background: url(../Images/Film_logo2_b.png)50px 80px/200px no-repeat, #f7f7f7;
+    background-attachment: fixed;
+    
+}
+
+h1 {
+    color: #1e1e1e;
+    font-family: helvetica;
+    
+}
+
+.video1 { z-index: 1;}
+.video1:hover { z-index: 2;} 
+.video2 { z-index: 0;}
+.video2:hover { z-index: 55555;}
+.video { 
+    filter: grayscale(1);
+    transition: 0.5s ease-in-out;
+}
+.video:hover{
+   filter: grayscale(0);
+   transition: 0.5s ease-in-out;
+}
+.video {
+    width: 450px;
+    height: 450px; 
+}
+
+.video {
+  position: relative;
+    left: 500px;
+    top; 20px;
+}
+.video1 {
+  position: absolute;
+  top: 210px;
+  left: 80px;
+}
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+
+.test {
+    position: absolute;
+    top: 2000px;
+    left: 60px;
+}
+
+  
